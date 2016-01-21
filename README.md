@@ -54,7 +54,8 @@ Szerkesztő oldal</br>
 Új felvétele</br>
 ![Új felvétele](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xtp1/v/t35.0-12/12596787_1200354756658913_123227873_o.jpg?oh=5adc3e628d47f17a5d47ed643fff4d9f&oe=56A21D31)
 
-Osztálymodell</br> Ábra
+Osztálymodell</br>
+![Osztálymodell](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xlf1/v/t34.0-12/12570862_1200356713325384_912577887_n.jpg?oh=d2853be62233a0b48d948961d8c0221e&oe=56A34921)
 
 Implementáció
 Fejlesztői környezet: Cloud 9 felhőalapú IDE, ami a www.c9.io linken keresztül elérhető. Virtuális gépként(szerverként) is tudjuk használni, amit szabadon szerkeszthetünk, valamint megoszthatunk másokkal és a kódunkba is betekintést engedhetünk. A fejlesztés során az EMBER.js javascript nyelv lett használva.
