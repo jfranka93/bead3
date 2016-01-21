@@ -2,7 +2,9 @@
 
 #Ájemdíbí- Á jó eszméletlen mozik databéze íbí
 
-#3. beadandó - Franka János, vagy ahogy az utcán ismerik: VZQGN6
+#3. beadandó </br>
+
+##Franka János, vagy ahogy az utcán ismerik: VZQGN6
 
 ##Követelmények
 
