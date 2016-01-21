@@ -15,10 +15,13 @@ Funkcionális követelmények:</br>
 Nem funkcionális követelmények:</br>
   A megjelenő oldal egyértelműen kezelhető</br>
 </br>
-Film: A film adatait tároló objektum. Tagjai:</br>
+Movie: A film adatait tároló objektum. Tagjai:</br>
 title: A film címe, string</br>
 createdate: A film elkészülésének dátuma, date</br>
 actors: film szereplőinek listája, egy-a-sokhoz actor</br>
+</br>
+Actor: A színész adatait tároló objektum. Tagjai:</br>
+name: Színész neve, string</br>
 </br>
 list: A filmek listája.</br>
 add: Új film felvétele űrlappal.</br>
