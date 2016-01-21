@@ -41,22 +41,21 @@ Végpontok:</br>
 'list' - Filmek listája</br>
 'add' - Új film felvétele</br>
 'movies/edit/:id' - film módosítása, szereplők hozzáadása</br>
-Felhasználó felületmodell:</br>
+Felhasználói felületmodell:</br>
 </br>
-Főoldal</br> Ábra
+Főoldal</br>
+![Főoldal](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xfl1/v/t35.0-12/12562337_1200349996659389_813604182_o.jpg?oh=6beb75ed4b25e0af1038c6f45111c155&oe=56A32837)
+Listázás oldal</br>
+![Listázás](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xfl1/v/t35.0-12/12620591_1200352326659156_1670836913_o.jpg?oh=f698f2d7a69241761f30cfd907105fea&oe=56A33D8F)
 
-Listázó oldal</br> Ábra
+Szerkesztő oldal</br>
+![Szerkesztés](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xtp1/v/t35.0-12/12546119_1200353146659074_1160107074_o.jpg?oh=a9f55dcfd4ec9a4669e348ac73c99e67&oe=56A2DA46)
 
-Megtekintő oldal</br> Ábra
-
-Szerkesztő oldal</br> Ábra
-
-Új felvétele</br> Ábra
+Új felvétele</br>
+![Új felvétele](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xtp1/v/t35.0-12/12596787_1200354756658913_123227873_o.jpg?oh=5adc3e628d47f17a5d47ed643fff4d9f&oe=56A21D31)
 
 Osztálymodell</br> Ábra
 
-Dinamikus működés </br>Ábra
-</br>
 Implementáció
 Fejlesztői környezet: Cloud 9 felhőalapú IDE, ami a www.c9.io linken keresztül elérhető. Virtuális gépként(szerverként) is tudjuk használni, amit szabadon szerkeszthetünk, valamint megoszthatunk másokkal és a kódunkba is betekintést engedhetünk. A fejlesztés során az EMBER.js javascript nyelv lett használva.
 Könyvtárstruktúrában lévő mappák funkciója: Az app mappán belül külön könyvtára van minden modellnek, templatenek és routenak. Az oldal megjelenéséért a templatek (hbs fájlok) felelnek, az objektumok szerkezetét a modellek adják, az adapter pedig biztosítja a kapcsolatot a szerverrel(EmberFire).
