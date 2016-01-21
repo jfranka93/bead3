@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'ajemdibi',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: 'https://bead3.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

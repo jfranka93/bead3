@@ -1,0 +1,17 @@
+<form>
+    <div class="form-group">
+        <label>Film címe</label>
+        {{input type="text" class="form-control" value=model.title placeholder="Írja be a film címét!"}}
+    </div>
+    <div class="form-group">
+        <label>Filmkészítés ideje</label>
+        {{input type="date" class="form-control" value=model.createdate}}
+    </div>
+    <div class="form-group">
+        <label>Szereplő hozzáadása</label>
+        {{input type="text" class="form-control" value=actorName placeholder="Írja ide a szereplő nevét!"}}
+        <button {{action 'addActor' model.id}} class="btn btn-primary">Hozzáadás</button>
+    </div>
+    <button {{action 'editMovie' model.id}} class="btn btn-primary">Rögzítés</button>
+</form>
+{{outlet}}

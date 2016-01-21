@@ -1,0 +1,12 @@
+{{#each movie in model}}
+<div class="well">
+    {{movie.title}}<br>
+    {{movie.createdate}}<br>
+    Színészek:<br>
+    {{#each movie.actors as |actor|}}
+        {{actor.name}} <button {{action 'removeActor' actor.id}}class="btn btn-danger">[Színész törlése]</button><br>
+    {{/each}}
+    <button {{action 'removeMovie' movie.id}} class="btn btn-danger">Törlés</button>
+    {{#link-to 'movies/edit' movie.id}}<button class="btn btn-primary">Szereplők hozzáadása/Szerkesztés</button>{{/link-to}}
+</div>
+{{/each}}

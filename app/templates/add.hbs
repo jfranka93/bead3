@@ -1,0 +1,14 @@
+
+<form>
+    <div class="form-group">
+        <label>Film címe</label>
+        {{input type="text" class="form-control" value=title placeholder="Írja be a film címét!"}}
+    </div>
+    <div class="form-group">
+        <label>Filmkészítés ideje</label>
+        {{input type="date" class="form-control" value=createdate}}
+    </div>
+    <button {{action 'addMovie'}} class="btn btn-primary">Rögzítés</button>
+</form>
+{{outlet}}
+
