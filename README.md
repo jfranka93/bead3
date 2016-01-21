@@ -28,7 +28,8 @@ add: Új film felvétele űrlappal.</br>
 edit: Egy létező film módosítása, szereplők hozzáadásának lehetősége.</br>
 </br>
 Használatieset-modell:</br>
-Használati eset diagram</br> Ábra
+Használati esetdiagram</br>
+![Használati esetdiagram](https://scontent-vie1-1.xx.fbcdn.net/hphotos-xpa1/v/t35.0-12/12562636_1200342653326790_1064156565_o.jpg?oh=56ff2573e9eb56ff90517094b21c5313&oe=56A36954)
 Tervezés</br>
 Architektúra terv</br>
 </br>
