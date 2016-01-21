@@ -1,53 +1,66 @@
-# Ajemdibi
+#Dokumentáció
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#Ájemdíbí- Á jó eszméletlen mozik databéze íbí
 
-## Prerequisites
+#3. beadandó
 
-You will need the following things properly installed on your computer.
+##Követelmények
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+###Az oldal filmek tárolásának feladatát látja el.
 
-## Installation
+Funkcionális követelmények:
+  A felhasználó tud új elemet felvenni
+  A felhasználó tudja módosítani az egyes elemeket
+  A felhasználó tudja törölni az egyes elemeket
+Nem funkcionális követelmények:
+  A megjelenő oldal egyértelműen kezelhető
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+Film: A film adatait tároló objektum. Tagjai:
+title: A film címe, string
+createdate: A film elkészülésének dátuma, date
+actors: film szereplőinek listája, egy-a-sokhoz actor
 
-## Running / Development
+list: A filmek listája.
+add: Új film felvétele űrlappal.
+edit: Egy létező film módosítása, szereplők hozzáadásának lehetősége.
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Használatieset-modell:
+Használati eset diagram</br> Ábra
+Tervezés
+Architektúra terv
 
-### Code Generators
+Oldaltérkép
+Főoldal
+Listázó oldal
+Végpontok:
+'/' - Főoldal
+'list' - Filmek listája
+'add' - Új film felvétele
+'movies/edit/:id' - film módosítása, szereplők hozzáadása
+Felhasználó felületmodell:
 
-Make use of the many generators for code, try `ember help generate` for more details
+Főoldal</br> Ábra
 
-### Running Tests
+Listázó oldal</br> Ábra
 
-* `ember test`
-* `ember test --server`
+Megtekintő oldal</br> Ábra
 
-### Building
+Szerkesztő oldal</br> Ábra
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Új felvétele</br> Ábra
 
-### Deploying
+Osztálymodell</br> Ábra
 
-Specify what it takes to deploy your app.
+Dinamikus működés Ábra
 
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Implementáció
+Fejlesztői környezet: Cloud 9 felhőalapú IDE, ami a www.c9.io linken keresztül elérhető. Virtuális gépként(szerverként) is tudjuk használni, amit szabadon szerkeszthetünk, valamint megoszthatunk másokkal és a kódunkba is betekintést engedhetünk. A fejlesztés során az EMBER.js javascript nyelv lett használva.
+Könyvtárstruktúrában lévő mappák funkciója: Az app mappán belül külön könyvtára van minden modellnek, templatenek és routenak. Az oldal megjelenéséért a templatek (hbs fájlok) felelnek, az objektumok szerkezetét a modellek adják, az adapter pedig biztosítja a kapcsolatot a szerverrel(EmberFire).
+Felhasználói dokumentáció
+A futtatáshoz ajánlott hardver-, szoftver konfiguráció:
+2 GB memória
+3.-ik / 4.-edik generációs i5 processzor
+Windows 7 vagy újabb
+Google Chrome
+A program használata: A felhasználó a kezdőlapon találja magát, ahonnan elnavigálhat a Listázás oldalra, vagy felvehet a listára új elemet a Hozzáadás oldalon.
+Ha új elemet vesz fel, az megjelenik a Listázás oldalon. Itt szerkesztheti, megtekintheti, illetve törölheti is az adott filmet, annak szereplőit.
